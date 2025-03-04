@@ -39,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # Local
     "pages.apps.PagesConfig", # new
-    # Local
     "accounts.apps.AccountsConfig", # new
 ]
 
