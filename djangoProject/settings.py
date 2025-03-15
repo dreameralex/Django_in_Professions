@@ -168,5 +168,7 @@ ACCOUNT_UNIQUE_EMAIL = True
 
 SECRET_KEY = env("DJANGO_SECRET_KEY")
 
-DEBUG = False
+DEBUG = True
 ALLOWED_HOSTS = [".herokuapp.com", "localhost", "127.0.0.1"]
+
+DEFAULT_FROM_EMAIL = "admin@djangobookstore.com"
